@@ -55,7 +55,7 @@ describe('AdministrationComponent', () => {
         provideHttpClient(withInterceptorsFromDi()),
         provideHttpClientTesting()
       ]
-    })
+    })s
       .compileComponents()
   }))
 
